@@ -1,4 +1,5 @@
 ﻿using System;
+using Arrays = Chapter2ArraysAndLists.Arrays;
 
 namespace DSAConsole
 {
@@ -8,6 +9,7 @@ namespace DSAConsole
         {
             //This is an out
             Console.WriteLine("Hello World!");
+            Arrays.SingleDimentionalArray.MonthNames();
         }
     }
 }

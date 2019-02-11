@@ -207,6 +207,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Chapter2ArraysAndLists/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Chapter2ArraysAndLists.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Chapter2ArraysAndLists.dll": {}
+        }
       }
     }
   },
@@ -673,10 +683,16 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Chapter2ArraysAndLists/1.0.0": {
+      "type": "project",
+      "path": "../Chapter2ArraysAndLists/Chapter2ArraysAndLists.csproj",
+      "msbuildProject": "../Chapter2ArraysAndLists/Chapter2ArraysAndLists.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "Chapter2ArraysAndLists >= 1.0.0",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
   },
@@ -707,7 +723,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/YFiguero/Projects/CSharp_DataStructures_Algorithms_Jamro/Chapter2ArraysAndLists/Chapter2ArraysAndLists.csproj": {
+              "projectPath": "/Users/YFiguero/Projects/CSharp_DataStructures_Algorithms_Jamro/Chapter2ArraysAndLists/Chapter2ArraysAndLists.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
