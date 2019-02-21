@@ -10,13 +10,18 @@ namespace DSAConsole
     {
         static void Main(string[] args)
         {
-            //This is an out
-            Console.WriteLine("Hello World!");
+            // // Hello World! Console App
+            // Console.WriteLine("Hello World!");
+            
+            // // Single dimnetion array - getting months
+            // var singleDimentionalArray = new SingleDimentionalArray();
+            // var months = singleDimentionalArray.MonthNames();
+            // Console.WriteLine(singleDimentionalArray.ArrayToString(months));
+            // var temp = new string[12];
 
-            var singleDimentionalArray = new SingleDimentionalArray();
-            var months = singleDimentionalArray.MonthNames();
-            Console.WriteLine(singleDimentionalArray.ArrayToString(months));
-            var temp = new string[12];
+            // // Multidimentional array - Multiplication Table
+            // MultiDimentionalArray.MultiplicationTable();
+            // MultiDimentionalArray.MultiplicationTableToDisplay();
         }
     }
 }
