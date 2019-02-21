@@ -4,18 +4,18 @@ namespace Chapter2ArraysAndLists.Arrays
 {
     public class MultiDimentionalArray
     {
-    	int[,] _multiplicationResults = new int[10, 10];
+    	public static int[,] MultiplicationResults = new int[10, 10];
     	//_gameMap = new [11, 10];
     	
     	public MultiDimentionalArray() { }
     	
     	public static void MultiplicationTable()
     	{
-	    	for(int i = 0; i < _multiplicationResults.GetLength(0); i++)
+	    	for(int i = 0; i < MultiplicationResults.GetLength(0); i++)
 	    	{
-	    		for(int j = 0; j < _multiplicationResults.GetLength(1); j++)
+	    		for(int j = 0; j < MultiplicationResults.GetLength(1); j++)
 	    		{
-	    			results[i, j] = (i + 1) * (j + 1);
+	    			MultiplicationResults[i, j] = (i + 1) * (j + 1);
 	    		}
 	    	}
     	}
@@ -24,11 +24,11 @@ namespace Chapter2ArraysAndLists.Arrays
     	{
     		Console.WriteLine("MultiplicationTableToDisplay Start!");
     		
-    		for(int i; i < _multiplicationResults.GetLength(0); i++)
+    		for(int i  = 0; i < MultiplicationResults.GetLength(0); i++)
     		{
-    			for(int j; j < _multiplicationResults.GetLength(1); j++)
+    			for(int j  = 0; j < MultiplicationResults.GetLength(1); j++)
     			{
-    				Console.Write("{0, 4}", );
+    				Console.Write("{0, 4}", MultiplicationResults[i, j]);
     			}
     			Console.WriteLine();
     		}
