@@ -6,6 +6,7 @@ namespace Chapter2ArraysAndLists.Arrays
     public class SingleDimentionalArray
     {
         public SingleDimentionalArray() { }
+        
         public string[] MonthNames()
         {
             var months = new string[12];
