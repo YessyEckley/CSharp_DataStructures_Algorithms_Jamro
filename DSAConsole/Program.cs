@@ -24,7 +24,7 @@ namespace DSAConsole
             // MultiDimentionalArray.MultiplicationTableToDisplay();
 
             // Multidimentiona array - Game Map
-            
+            MultiDimentionalArray.GameMapDisplay();
         }
     }
 }
