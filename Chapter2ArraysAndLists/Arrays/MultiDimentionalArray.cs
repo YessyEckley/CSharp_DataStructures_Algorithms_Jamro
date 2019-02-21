@@ -5,6 +5,7 @@ namespace Chapter2ArraysAndLists.Arrays
     public class MultiDimentionalArray
     {
     	int[,] _multiplicationResults = new int[10, 10];
+    	//_gameMap = new [11, 10];
     	
     	public MultiDimentionalArray() { }
     	
