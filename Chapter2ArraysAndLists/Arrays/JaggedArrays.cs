@@ -6,6 +6,7 @@ namespace Chapter2ArraysAndLists.Arrays
     {
         public static void Errata()
         {
+            // In the book there is an error on page 44S
             int[][] numbers = {
                 new int[] { 9, 5, -9 },
                 new int[] { 0, -3, 12, 51, -3 },
